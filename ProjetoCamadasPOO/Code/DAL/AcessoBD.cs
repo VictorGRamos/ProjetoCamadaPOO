@@ -19,7 +19,7 @@ namespace ProjetoCamadasPOO.Code.DAL
             {
                 string conn = "Persist Security Info = false; " +
                               "server = localhost; " +
-                              "database = ; " +
+                              "database = bd3camadas; " +
                               "uid = root; pwd=;convert zero datetime=True";
 
                 conexao = new MySqlConnection(conn);

@@ -12,7 +12,7 @@ namespace ProjetoCamadasPOO.Code.BLL
     {
 
         AcessoBD conexao = new AcessoBD();
-        string tabela = "";
+        string tabela = "tbl_estoque";
 
 
 
