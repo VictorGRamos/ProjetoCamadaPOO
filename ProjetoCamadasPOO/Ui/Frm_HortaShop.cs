@@ -30,6 +30,7 @@ namespace ProjetoCamadasPOO
             hortaDTO.Preco = double.Parse(txt_preco.Text);
             hortaDTO.Quantidade = int.Parse(txt_quantidade.Text);
 
+            //TODO: Falta conexão
            
         }
     }
