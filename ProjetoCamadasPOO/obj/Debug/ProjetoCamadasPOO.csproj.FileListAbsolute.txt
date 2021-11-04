@@ -1,0 +1,9 @@
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\bin\Debug\ProjetoCamadasPOO.exe.config
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\bin\Debug\ProjetoCamadasPOO.exe
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\bin\Debug\ProjetoCamadasPOO.pdb
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.csprojAssemblyReference.cache
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.Properties.Resources.resources
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.csproj.GenerateResource.cache
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.exe
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.pdb
+H:\ProjetoCamadasPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.Frm_HortaShop.resources
