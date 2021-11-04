@@ -129,6 +129,7 @@
             this.btn_editar.TabIndex = 9;
             this.btn_editar.Text = "EDITAR";
             this.btn_editar.UseVisualStyleBackColor = true;
+            this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
             // btn_excluir
             // 
@@ -138,14 +139,19 @@
             this.btn_excluir.TabIndex = 10;
             this.btn_excluir.Text = "EXCLUIR";
             this.btn_excluir.UseVisualStyleBackColor = true;
+            this.btn_excluir.Click += new System.EventHandler(this.btn_excluir_Click);
             // 
             // dtg_horta
             // 
+            this.dtg_horta.AllowUserToOrderColumns = true;
+            this.dtg_horta.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.dtg_horta.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtg_horta.GridColor = System.Drawing.Color.Black;
             this.dtg_horta.Location = new System.Drawing.Point(39, 184);
             this.dtg_horta.Name = "dtg_horta";
-            this.dtg_horta.Size = new System.Drawing.Size(632, 179);
+            this.dtg_horta.Size = new System.Drawing.Size(632, 158);
             this.dtg_horta.TabIndex = 11;
+            this.dtg_horta.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtg_horta_CellClick);
             // 
             // Frm_HortaShop
             // 
@@ -166,6 +172,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Frm_HortaShop";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Frm_HortaShop_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dtg_horta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

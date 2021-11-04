@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ProjetoCamadasPOO.Code.DTO;
 using ProjetoCamadasPOO.Code.DAL;
+using System.Data;
 
 namespace ProjetoCamadasPOO.Code.BLL
 {
@@ -27,17 +28,21 @@ namespace ProjetoCamadasPOO.Code.BLL
 
         public void Editar(HortaDTO hortaDTO) 
         {
-
+            string alterar = $"update {tabela} set nome_planta = '{hortaDTO.Plantanome}', preco_item = '{hortaDTO.Preco}'," +
+                $"qnt_estoque = '{hortaDTO.Quantidade}' where id = '{hortaDTO.Id}'";
+            conexao.ExecutarComando(alterar);
         }
 
         public void Exclui(HortaDTO hortaDTO) 
         {
-            
+            string excluir = $"delete from {tabela} where id = '{hortaDTO.Id}';";
+            conexao.ExecutarComando(excluir);
         }
 
-        public void Listar()
+        public DataTable Listar()
         {
-
+            string sql = $"select * from {tabela} order by id;";
+            return conexao.ExecutarConsulta(sql);
         }
 
     }
