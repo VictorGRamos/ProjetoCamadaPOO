@@ -51,3 +51,4 @@ H:\ProjetoCamadasPOO\ProjetoCamadaPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadas
 H:\ProjetoCamadasPOO\ProjetoCamadaPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.csproj.CopyComplete
 H:\ProjetoCamadasPOO\ProjetoCamadaPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.exe
 H:\ProjetoCamadasPOO\ProjetoCamadaPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.pdb
+H:\ProjetoCamadasPOO\ProjetoCamadaPOO\ProjetoCamadasPOO\obj\Debug\ProjetoCamadasPOO.Ui.FrmLogin.resources

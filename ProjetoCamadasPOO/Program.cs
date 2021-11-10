@@ -16,7 +16,7 @@ namespace ProjetoCamadasPOO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Frm_HortaShop());
+            Application.Run(new Ui.FrmLogin());
         }
     }
 }

@@ -67,8 +67,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\BLL\HortaBLL.cs" />
+    <Compile Include="Code\BLL\LoginBLL.cs" />
     <Compile Include="Code\DAL\AcessoBD.cs" />
     <Compile Include="Code\DTO\HortaDTO.cs" />
+    <Compile Include="Code\DTO\LoginDTO.cs" />
+    <Compile Include="Ui\FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ui\FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ui\Frm_HortaShop.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +94,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Ui\FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ui\Frm_HortaShop.resx">
       <DependentUpon>Frm_HortaShop.cs</DependentUpon>
     </EmbeddedResource>
